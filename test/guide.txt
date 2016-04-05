@@ -1,0 +1,18 @@
+#set the ns object
+
+#set file object where the nam output would be saved
+
+#set nodes objects
+
+#set links between them
+
+#set agents to the nodes and attach agents to nodes
+
+#set application such as CBR or FTP and attach them to agent
+
+#set one null agent that will work as a sink in network and connect that null agent to a node
+
+#set start and stop time of application such as cbr or ftp
+
+#run the finish procedure
+
