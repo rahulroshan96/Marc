@@ -1,0 +1,4 @@
+struct hdr_ping{
+	char ret;
+	double send_time;
+};
