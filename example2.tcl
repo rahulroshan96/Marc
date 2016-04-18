@@ -48,7 +48,6 @@ $cbr1 attach-agent $udp1
 set null0 [new Agent/Null]
 $ns attach-agent $n3 $null0
 
-
 $ns connect $udp0 $null0
 $ns connect $udp1 $null0
 

@@ -27,6 +27,7 @@ for {set i 0} {$i < 7} {incr i} {
 for {set i 0} {$i < 7} {incr i} {
 	$ns duplex-link $n($i) $n([expr ($i+1)%7]) 1Mb 10ms DropTail
 }
+
 # and agent definitions, etc. here
 #Create a UDP agent and attach it to node n(0)
 set udp0 [new Agent/UDP]

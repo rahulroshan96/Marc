@@ -1,5 +1,6 @@
 set ns [new Simulator]
 
+#this is for dynamic routing
 $ns rtproto DV
 
 # nf is a handle that will control the out.nam file
@@ -40,9 +41,9 @@ $ns connect $udp0 $null0
 $ns at 0.5 "$cbr0 start"
 $ns at 4.5 "$cbr0 stop"
 
+# link is going to down in between 1.0 and 2.0
 $ns rtmodel-at 1.0 down $n(1) $n(2)
 $ns rtmodel-at 2.0 up $n(1) $n(2)
-
 
 
 $ns at 5.0 "finish"
