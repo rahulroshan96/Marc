@@ -1,4 +1,0 @@
-Date: 5/4/2016
-#complete the Marc tutorial page [whole]
-#do the practice to all the example and understand them
-#be careful with the protocol creation example
